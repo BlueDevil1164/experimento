@@ -4,6 +4,7 @@ public class prueba3{
         try{
             FileWriter fw=new FileWriter("prueba.txt");
             fw.write("funciona");
+            fw.write("muy bien");
             fw.close();
         }catch(IOException e){
             System.out.println(e);
